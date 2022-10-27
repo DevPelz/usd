@@ -4,7 +4,7 @@ $sessionId = $_POST["sessionId"];
 $serviceCode = $_POST["serviceCode"];
 //This is the first menu screen
 if ( $text == "" ) {
-$response = "CON Hi welcome, I can help you with Event Reservation \n";
+$response = "CON Hi welcome, I'm K-Doc \n";
 $response .= "1. Enter 1 to continue";
 }
 // Menu for a user who selects '1' from the first menu
