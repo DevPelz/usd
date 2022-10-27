@@ -10,20 +10,21 @@ $response .= "1. Enter 1 to continue";
 // Menu for a user who selects '1' from the first menu
 // Will be brought to this second menu screen
 else if ($text == "1") {
-$response = "CON Pick a table for reservation below \n";
-$response .= "1. Table for 2 \n";
-$response .= "2. Table for 4 \n";
-$response .= "3. Table for 6 \n";
-$response .= "4. Table for 8 \n";
+$response = "CON This is K_Doc i am here to answer your Health questions for free Choose Prefered Language \n";
+$response .= "1. English \n";
+$response .= "2. English \n";
 }
 //Menu for a user who selects '1' from the second menu above
 // Will be brought to this third menu screen
 else if ($text == "1*1") {
-$response = "CON You are about to book a table for 2 \n";
-$response .= "Please Enter 1 to confirm \n";
+$response = "CON How do you identify. choose one? \n";
+$response .= "1. Male \n";
+$response .= "2. Female \n"; 
+$response .= "3. Non-Binary \n";
+$response .= "4. Enter 0 to cancel\n";
 }
 else if ($text == "1*1*1") {
-$response = "CON Table for 2 cost -N- 50,000.00 \n";
+$response = "CON Got it. How old are you? \n";
 $response .= "Enter 1 to continue \n";
 $response .= "Enter 0 to cancel";
 }
